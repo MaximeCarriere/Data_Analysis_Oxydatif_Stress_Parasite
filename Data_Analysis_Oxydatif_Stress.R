@@ -179,7 +179,7 @@ cor.test(M1[,1], M1[,6], method="pearson")
 
 
 A = scale(gabarit)
-A
+
 B=rowMeans(A)
 
 library(nlme)
@@ -258,7 +258,7 @@ AP2
 library(corrplot)
 corrplot(AP2, type="upper", order="hclust", tl.col="black", tl.srt=45,)
 library(lme4)
-b
+
 
 A=na.omit(Appro)
 lm43=lme(ROM ~  Poids + Longueure + Poids_foie + Parasite  , random = ~1 | site, A)
@@ -272,10 +272,10 @@ plot(lm43)
 par(mfrow = c(2,2))
 plot(lm44)
 
-ù
+
 a=coef(lm44)
 b=2.5
-b
+
 plot(lm44, resid(., type = "p") ~ fitted(.), abline=c(b,az))
 plot(lm44, resid(., type = "p") ~ fitted(.), abline(a=)))
 library(FactoMineR)
