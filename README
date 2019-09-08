@@ -1,0 +1,41 @@
+# Data Analysis of Oxydatif Stress due to Parasite
+
+
+The goal of this study is to analyse the impact of the parasite Acanthocephales in the stress oxydatif and other parameters.
+
+
+Parameters:
+    - Region
+    - Presence or absence of Parasite
+    - Size
+    - Weight
+    - Liver Weight
+    - Ratio of phtalate
+    - Ratio of ROM (indicator of oxydatif stress in blood)
+    - Ratio of OXY (other indicator of oxydatif stress in blood)
+    
+    
+# PART A 
+
+Coefficient of correlation between all parameters
+
+
+# PART B
+
+Specification of Statistical Model and test them
+
+
+# PART C
+
+Reduction of numbers of factor after realisation of an Principal Component Analysis (PCA)
+
+
+# PART D
+
+Box plot of different parameters 
+
+# PART E
+
+Confirmation of validity of model with Normality and Linearity Test 
+
+    
